@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>juxtaposition</title>
+
+<style>
+    /* typo */
+    @import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&display=swap');
+   body{font-family: "Wix Madefor Text", sans-serif;}
+
+body{
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+}
+/* mise en page */
+div{
+    flex: 1;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+/* déco (style) (visuel) */
+div{font-size: 5vw;}
+#G { background-color: rgb(61, 54, 146); color: rgb(234, 233, 233); }
+#D {background-color: rgb(98, 68, 126); color: aliceblue;}
+
+
+@media (orientation: portrait){
+body {
+    flex-direction: column;
+}    
+}
+
+</style>
+
+</head>
+<body>
+    
+<div id="G">dinausaure</div>
+<div id="D">rouge</div>
+
+</body>
+</html>
